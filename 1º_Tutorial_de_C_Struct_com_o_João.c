@@ -2,7 +2,7 @@
 struct carro{
 	int rodas;
 	int portas;
-	int cadeiras;
+	int bancos;
 	char marca[10];
 	float velocimetro;
 };
@@ -17,17 +17,17 @@ int main(void){
     printf("Digite o numero de portas:");
     scanf("%d",& carro1.portas);
     printf("Digite o numero de cadeiras: ");
-    scanf("%d",& carro1.cadeiras);
+    scanf("%d",& carro1.bancos);
     
 	printf("\nDados do carro:\n");
 	printf("Marca:%s\n",carro1.marca);
 	printf("Rodas:%d\n",carro1.rodas);
 	printf("Portas:%d\n",carro1.portas);
-	printf("Cadeiras:%d\n",carro1.cadeiras);
+	printf("Bancos:%d\n",carro1.bancos);
 	scanf("%s",carro1.marca);
 	scanf("%d",& carro1.rodas);
 	scanf("%d",& carro1.portas);
-	scanf("%d",& carro1.cadeiras);
+	scanf("%d",& carro1.bancos);
 	
 	return 0;
 }
